@@ -58,7 +58,6 @@ img {
   max-width: 100%;
 }
 
-/* Utility for merged images */
 .merged-image-wrapper {
   position: relative;
   overflow: hidden;
