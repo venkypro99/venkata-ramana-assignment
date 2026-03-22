@@ -1,0 +1,2327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+.header-section {
+  background-color: #ffffff;
+  width: 100%;
+  border-bottom: 1px solid #e1e3e8;
+}
+
+.header-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 16px 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-left .logo-img {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav-center {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link, .nav-link-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+  color: #262a2e;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.icon-sm {
+  width: 16px;
+  height: 16px;
+}
+
+.btn-contact {
+  background-color: #2b3990;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .header-container {
+    padding: 16px 20px;
+  }
+}
+
+/* CSS for section section:Hero */
+.hero-section {
+  position: relative;
+  padding: 80px 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.bg-noise {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/e02cb91ee01c23b529d6da08ceedd74635f8a044.png');
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.hero-grid {
+  display: flex;
+  gap: 100px;
+  align-items: flex-start;
+}
+
+.hero-visuals {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-main-image {
+  border-radius: 24px;
+  border: 3px solid #fff;
+  box-shadow: 0px 20px 40px -8px rgba(88, 92, 95, 0.2);
+  height: 570px;
+  width: 100%;
+}
+
+.hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.arrow-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.86);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  border: 1px solid #e1e3e8;
+}
+
+.arrow-left { left: 20px; }
+.arrow-right { right: 20px; }
+
+.hero-thumbnails {
+  display: flex;
+  gap: 20px;
+}
+
+.thumb {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #cfd1d4;
+  cursor: pointer;
+}
+
+.hero-text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #4d545c;
+}
+
+.crumb-active {
+  color: #0d0d0d;
+  font-weight: 500;
+}
+
+.hero-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.certifications {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.cert-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f7f8f9;
+  border: 1px solid #e1e3e8;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111827;
+}
+
+.hero-features {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  color: #0d0d0d;
+}
+
+.hero-pricing {
+  background: #fff;
+  border: 1px solid #cfd1d4;
+  border-radius: 10px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.price-range {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.price-label {
+  font-size: 14px;
+  color: #6a7077;
+}
+
+.price-value {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0d0d0d;
+}
+
+.shipping-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.info-badge {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.info-badge.warning {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.info-badge.neutral {
+  background: #f3f4f6;
+  color: #0d0d0d;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: #2b3990;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.btn-secondary {
+  border: 1px solid #2b3990;
+  color: #262a2e;
+  padding: 16px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trusted-companies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.trusted-label {
+  color: #878b94;
+  font-size: 16px;
+}
+
+.logos-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.logos-row img {
+  height: 32px;
+  width: auto;
+  opacity: 0.6;
+  filter: grayscale(100%);
+}
+
+@media (max-width: 1024px) {
+  .hero-grid {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .hero-visuals, .hero-text-content {
+    width: 100%;
+  }
+  .hero-main-image {
+    height: 400px;
+  }
+}
+
+/* CSS for section section:TechnicalSpecs */
+.specs-section {
+  background-color: #111827;
+  padding: 100px 0;
+  color: white;
+}
+
+.specs-header {
+  margin-bottom: 56px;
+}
+
+.specs-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.specs-header p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 800px;
+}
+
+.specs-table {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1.25px solid #374151;
+}
+
+.specs-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.table-header {
+  background-color: #374151;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.table-cell {
+  background-color: #1f2937;
+  padding: 16px 24px;
+  font-size: 14px;
+  color: white;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  height: 1px;
+  background-color: #374151;
+  width: 100%;
+}
+
+.flag-cell {
+  gap: 8px;
+}
+
+.specs-download {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-download {
+  border: 1px solid white;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .specs-table {
+    flex-direction: column;
+  }
+  .specs-col.labels .table-cell {
+    background-color: #2d3748;
+    font-weight: 600;
+  }
+}
+
+/* CSS for section section:Features */
+.features-section {
+  position: relative;
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.bg-noise-light {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/e02cb91ee01c23b529d6da08ceedd74635f8a044.png');
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.features-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.features-header {
+  text-align: left;
+  width: 100%;
+  max-width: 1240px;
+}
+
+.features-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #0d0d0d;
+}
+
+.features-header p {
+  font-size: 18px;
+  color: #6a7077;
+  max-width: 800px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.feature-card {
+  background-color: #ffffff;
+  border: 1px solid #cfd1d4;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px 0px rgba(27, 28, 29, 0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.card-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #0d0d0d;
+}
+
+.card-text p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #535a61;
+}
+
+.features-cta {
+  margin-top: 20px;
+}
+
+@media (max-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CSS for section section:FAQ */
+.faq-section {
+  position: relative;
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.faq-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.faq-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.faq-item {
+  background-color: #ffffff;
+  border: 1px solid #e1e3e8;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.faq-icon-wrapper {
+  background-color: #f1f2f3;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-icon-wrapper.expanded-bg {
+  background-color: #fff1f2;
+}
+
+.faq-answer {
+  margin-top: 16px;
+  color: #535a61;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.faq-cta-box {
+  background-color: #f7f8f9;
+  border: 1px solid #cfd1d4;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px 0px rgba(27, 28, 29, 0.04);
+}
+
+.faq-cta-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-cta-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.faq-cta-text p {
+  font-size: 14px;
+  color: rgba(38, 42, 46, 0.8);
+}
+
+.faq-cta-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 360px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.input-group label {
+  font-size: 12px;
+  color: #959ba4;
+}
+
+.input-field {
+  background-color: #ffffff;
+  border: 1px solid #e1e3e8;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.input-field input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: inherit;
+}
+
+.btn-primary.full-width {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .faq-cta-box {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .faq-cta-form {
+    width: 100%;
+  }
+}
+
+/* CSS for section section:Industries */
+.industries-section {
+  position: relative;
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.industries-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.industries-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.industries-text {
+  max-width: 620px;
+}
+
+.industries-text h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.industries-text p {
+  font-size: 18px;
+  color: #4d545c;
+}
+
+.nav-arrows {
+  display: flex;
+  gap: 16px;
+}
+
+.arrow-btn-sm {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 1px solid #cfd1d4;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px 0px rgba(27, 28, 29, 0.04);
+}
+
+.industries-cards {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.industry-card {
+  min-width: 420px;
+  height: 420px;
+  border-radius: 32px;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 32px 24px;
+}
+
+.industry-img-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.industry-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.58) 40%, rgba(0,0,0,0.8) 76%);
+}
+
+.industry-info {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.industry-title h3 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.industry-title p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.industry-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.industry-tags span {
+  color: #535a61; /* Note: In design these look like links/buttons, but JSON shows text-button instances. Assuming white/light text on dark bg in reality, but JSON style_81 is dark gray. The overlay makes bg dark. I will use white for visibility. */
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .industries-header-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .industry-card {
+    min-width: 300px;
+  }
+}
+
+/* CSS for section section:Process */
+.process-section {
+  position: relative;
+  padding: 100px 0;
+  background-color: #ffffff; /* JSON says gradient with low opacity, effectively white/light */
+}
+
+.process-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.process-header {
+  text-align: center;
+  max-width: 800px;
+}
+
+.process-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.process-header p {
+  font-size: 18px;
+  color: #4d545c;
+}
+
+.process-flow {
+  width: 100%;
+  background: #ffffff;
+  border: 1.25px solid #cfd1d4;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0px 16px 32px -12px rgba(88, 92, 95, 0.1);
+}
+
+.steps-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 56px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.step-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #cfd1d4;
+  z-index: 0;
+}
+
+.step-item {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  border: 1px solid #cfd1d4;
+  border-radius: 32px;
+  padding: 8px 16px;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.step-item.active {
+  background-color: #2b3990;
+  color: white;
+  border-color: #2b3990;
+}
+
+.process-detail {
+  display: flex;
+  gap: 56px;
+  align-items: center;
+}
+
+.detail-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.detail-text h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.detail-text p {
+  color: #4d545c;
+  line-height: 1.5;
+}
+
+.detail-points {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.point {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.detail-visual {
+  flex: 1;
+}
+
+.visual-container {
+  border-radius: 16px;
+  border: 3px solid #ffffff;
+  height: 315px;
+  width: 100%;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.visual-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .process-detail {
+    flex-direction: column;
+  }
+  .visual-container {
+    height: 250px;
+  }
+}
+
+/* CSS for section section:Testimonials */
+.testimonials-section {
+  position: relative;
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.testimonials-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.testimonials-header {
+  text-align: center;
+  max-width: 800px;
+}
+
+.testimonials-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.testimonials-header p {
+  font-size: 18px;
+  color: #4d545c;
+}
+
+.testimonials-grid {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.testimonial-card {
+  min-width: 420px;
+  background-color: #f7f8f9;
+  border: 1.5px solid #e1e3e8;
+  border-radius: 24px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.testimonial-body h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.testimonial-body p {
+  font-size: 14px;
+  color: #535a61;
+  line-height: 1.5;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.client-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #e1e3e8;
+}
+
+.client-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.client-name {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.client-role {
+  font-size: 14px;
+  color: #535a61;
+}
+
+.client-logo img {
+  height: 32px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    min-width: 300px;
+  }
+}
+
+/* CSS for section section:Portfolio */
+.portfolio-section {
+  position: relative;
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.portfolio-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.portfolio-header {
+  text-align: center;
+  max-width: 800px;
+}
+
+.portfolio-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-header p {
+  font-size: 18px;
+  color: #4d545c;
+}
+
+.portfolio-grid {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-card {
+  background-color: #ffffff;
+  border: 1.25px solid #cfd1d4;
+  border-radius: 20px;
+  width: 397px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px 0px rgba(27, 28, 29, 0.04);
+}
+
+.portfolio-text {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.text-group h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text-group p {
+  font-size: 14px;
+  color: #4d545c;
+  line-height: 1.5;
+}
+
+.portfolio-img-container {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 238px;
+  margin-top: auto;
+}
+
+.portfolio-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-learn-more {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(43, 57, 144, 0.05); /* Light blue tint */
+  border: 1px solid rgba(43, 57, 144, 0.24);
+  color: #2b3990;
+  padding: 10px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  width: 90%;
+  background: white; /* Override for visibility */
+}
+
+@media (max-width: 1024px) {
+  .portfolio-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+/* CSS for section section:Resources */
+.resources-section {
+  position: relative;
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.resources-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.resources-header {
+  text-align: center;
+  max-width: 800px;
+}
+
+.resources-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.resources-header p {
+  font-size: 18px;
+  color: #4d545c;
+}
+
+.resources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 1240px;
+  background-color: #ffffff;
+  border: 1px solid #cfd1d4;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px 0px rgba(27, 28, 29, 0.04);
+}
+
+.resource-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f1f2f3;
+}
+
+.resource-item:last-child {
+  border-bottom: none;
+}
+
+.resource-name {
+  font-size: 16px;
+  color: #0d0d0d;
+  opacity: 0.8;
+}
+
+.download-action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.download-text {
+  color: #2b3990;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .resource-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+/* CSS for section section:CTA */
+.cta-section {
+  position: relative;
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.cta-content {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-card {
+  background-color: #2b3990;
+  border-radius: 32px;
+  padding: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0px 16px 40px -8px rgba(88, 92, 95, 0.16);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add noise overlay to CTA card if needed via pseudo-element */
+.cta-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('images/e02cb91ee01c23b529d6da08ceedd74635f8a044.png');
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.cta-left {
+  position: relative;
+  z-index: 1;
+  max-width: 644px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.cta-left h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.cta-left p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.cta-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.divider-line {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+}
+
+.contact-details {
+  font-size: 14px;
+}
+
+.cta-right {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-form-box {
+  background-color: #f7f8f9;
+  border-radius: 24px;
+  padding: 32px;
+  width: 420px;
+  color: #262a2e;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cta-form-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input-field.dual {
+  display: flex;
+  align-items: center;
+}
+
+.prefix {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding-right: 8px;
+  border-right: 1px solid #e1e3e8;
+  margin-right: 8px;
+  color: #0d0d0d;
+}
+
+.btn-submit {
+  background-color: #262a2e;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-top: 16px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .cta-card {
+    flex-direction: column;
+    gap: 40px;
+    padding: 32px;
+  }
+  .cta-left {
+    max-width: 100%;
+  }
+  .cta-form-box {
+    width: 100%;
+  }
+}
+
+/* CSS for section section:Footer */
+.footer-section {
+  background-color: #f1f2f3;
+  padding: 80px 0 40px;
+  border-top: 1px solid #cfd1d4;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 32px;
+  border-radius: 20px;
+  border: 1px solid #cfd1d4;
+}
+
+.footer-logo {
+  height: 40px;
+  width: auto;
+}
+
+.brand-tagline {
+  border-left: 1px solid #e1e3e8;
+  padding-left: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.link-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 200px;
+}
+
+.link-column h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0d0d0d;
+}
+
+.link-column a {
+  font-size: 14px;
+  color: #535a61;
+}
+
+.contact-col {
+  gap: 10px;
+}
+
+.contact-item {
+  display: flex;
+  gap: 6px;
+  font-size: 14px;
+  color: #535a61;
+}
+
+.divider-line-dark {
+  height: 1px;
+  background-color: #e1e3e8;
+  margin: 10px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #535a61;
+  border-top: 1px solid #e1e3e8;
+  padding-top: 40px;
+}
+
+.footer-legal {
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .footer-brand {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .brand-tagline {
+    border-left: none;
+    padding-left: 0;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .footer-legal {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="header" class="header-section">
+  <div class="header-container">
+    <div class="navbar">
+      <div class="nav-left">
+        <div class="logo-placeholder">
+            <!-- Assuming logo is part of the image fill in the original design or a separate asset not fully detailed, using placeholder based on structure -->
+            <img src="images/ce5a170c60004b853d7c68fb0ec5bf7ee4e75417.png" alt="Logo" class="logo-img">
+        </div>
+      </div>
+      <div class="nav-center">
+        <div class="nav-links">
+          <a href="#" class="nav-link">About Us</a>
+          <div class="nav-link-dropdown">
+            <span>Products</span>
+            <img src="images/490_8806.svg" alt="caret" class="icon-sm">
+          </div>
+        </div>
+      </div>
+      <div class="nav-right">
+        <button class="btn-contact">
+            <span>Contact Us</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="hero" class="hero-section">
+  <div class="bg-noise"></div>
+  <div class="container hero-content">
+    <div class="hero-grid">
+      <!-- Left Column: Image/Visuals -->
+      <div class="hero-visuals">
+        <div class="merged-image-wrapper hero-main-image">
+            <img src="images/b2bbeacab99354ed8115ebeb93ea4f25afce46fb.png" alt="Hero Visual" class="hero-bg-img">
+            <div class="arrow-btn arrow-left merged-content">
+                <img src="images/490_8816.svg" alt="Prev">
+            </div>
+            <div class="arrow-btn arrow-right merged-content">
+                <img src="images/490_8818.svg" alt="Next">
+            </div>
+            <!--merged image-->
+        </div>
+        <div class="hero-thumbnails">
+            <div class="thumb active"></div>
+            <div class="thumb"></div>
+            <div class="thumb"></div>
+            <div class="thumb"></div>
+            <div class="thumb"></div>
+            <div class="thumb"></div>
+        </div>
+      </div>
+
+      <!-- Right Column: Content -->
+      <div class="hero-text-content">
+        <div class="breadcrumbs">
+            <span class="crumb-text">Products</span>
+            <img src="images/490_8878.svg" alt="caret">
+            <span class="crumb-active">Two For One Twister</span>
+        </div>
+        
+        <div class="hero-header">
+            <div class="certifications">
+                <div class="cert-badge">
+                    <img src="images/490_8833.svg" alt="BIS">
+                    <span>BIS Certified</span>
+                </div>
+                <div class="cert-badge">
+                    <img src="images/425ee7f912f69fb4da182e9938b85c280e6a7199.png" alt="ISI" style="width: 22px;">
+                    <span>ISO Certified</span>
+                </div>
+                <div class="cert-badge">
+                    <img src="images/7dc0ac401f29132fb1e42e7ea964793b49bc77b6.png" alt="CE" style="width: 22px;">
+                    <span>CE Certified</span>
+                </div>
+            </div>
+            <h1 class="hero-title">Premium HDPE Pipes & Coils for Modern Infrastructure</h1>
+        </div>
+
+        <div class="hero-features">
+            <div class="feature-item">
+                <img src="images/490_8849.svg" alt="check">
+                <span>Leak-Proof Fusion Joints</span>
+            </div>
+            <div class="feature-item">
+                <img src="images/490_8852.svg" alt="check">
+                <span>Chemical Resistance</span>
+            </div>
+            <div class="feature-item">
+                <img src="images/490_8855.svg" alt="check">
+                <span>50+ Year Service Life</span>
+            </div>
+            <div class="feature-item">
+                <img src="images/490_8858.svg" alt="check">
+                <span>Flexible Installation</span>
+            </div>
+            <div class="feature-item">
+                <img src="images/490_8861.svg" alt="check">
+                <span>Flexible Installation</span>
+            </div>
+        </div>
+
+        <div class="hero-pricing">
+            <div class="price-range">
+                <span class="price-label">Price Range</span>
+                <span class="price-value">₹4,80,000 - 7,90,000</span>
+            </div>
+            <div class="shipping-info">
+                <div class="info-badge warning">
+                    <span>Shipping: 6-12 days</span>
+                </div>
+                <div class="info-badge warning">
+                    <span>Returns: If returned within 7 days</span>
+                </div>
+                <div class="info-badge neutral">
+                    <span>Certifications: ISO Certified, BIS Certified</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-actions">
+            <button class="btn-primary">Get Custom Quote</button>
+            <button class="btn-secondary">
+                <span>View Technical Specs</span>
+                <img src="images/I490_8875_223_3865.svg" alt="arrow">
+            </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="trusted-companies">
+        <p class="trusted-label">Trusted by Hundreds of Companies Globally</p>
+        <div class="logos-row">
+            <img src="images/62973e4dd846652170f3636303e02a5fc1d1b59e.png" alt="Logo 1">
+            <img src="images/62973e4dd846652170f3636303e02a5fc1d1b59e.png" alt="Logo 2">
+            <img src="images/62973e4dd846652170f3636303e02a5fc1d1b59e.png" alt="Logo 3">
+            <img src="images/62973e4dd846652170f3636303e02a5fc1d1b59e.png" alt="Logo 4">
+            <img src="images/62973e4dd846652170f3636303e02a5fc1d1b59e.png" alt="Logo 5">
+            <img src="images/62973e4dd846652170f3636303e02a5fc1d1b59e.png" alt="Logo 6">
+        </div>
+    </div>
+  </div>
+</section>
+<section id="technical-specs" class="specs-section">
+  <div class="container">
+    <div class="specs-header">
+      <h2>Technical Specifications at a Glance</h2>
+      <p>Comprehensive performance data demonstrating our commitment to quality and engineering excellence.</p>
+    </div>
+    
+    <div class="specs-table">
+      <!-- Column 1: Parameters -->
+      <div class="specs-col labels">
+        <div class="table-header">PARAMETER</div>
+        <div class="divider"></div>
+        <div class="table-cell">Pipe Diameter Range</div>
+        <div class="divider"></div>
+        <div class="table-cell">Pressure Ratings</div>
+        <div class="divider"></div>
+        <div class="table-cell">Standard Dimension Ratio</div>
+        <div class="divider"></div>
+        <div class="table-cell">Operating Temperature</div>
+        <div class="divider"></div>
+        <div class="table-cell">Service Life</div>
+        <div class="divider"></div>
+        <div class="table-cell">Material Density</div>
+        <div class="divider"></div>
+        <div class="table-cell">Certification Standards</div>
+        <div class="divider"></div>
+        <div class="table-cell">Joint Type</div>
+        <div class="divider"></div>
+        <div class="table-cell">Coil Lengths</div>
+        <div class="divider"></div>
+        <div class="table-cell">Country of Origin</div>
+      </div>
+
+      <!-- Column 2: Specifications -->
+      <div class="specs-col values">
+        <div class="table-header">SPECIFICATION</div>
+        <div class="divider"></div>
+        <div class="table-cell">20mm to 1600mm (3/4” to 63”)</div>
+        <div class="divider"></div>
+        <div class="table-cell">PN 2.5, PN 4, PN 6, PN 8, PN 10, PN 12.5, PN 16</div>
+        <div class="divider"></div>
+        <div class="table-cell">SDR 33, SDR 26, SDR 21, SDR 17, SDR 13.6, SDR 11</div>
+        <div class="divider"></div>
+        <div class="table-cell">-40C to +80C (-40F to +176F)</div>
+        <div class="divider"></div>
+        <div class="table-cell">50+ Years (at 20 degrees C, PN 10)</div>
+        <div class="divider"></div>
+        <div class="table-cell">0.95 - 0.96 g/cm3</div>
+        <div class="divider"></div>
+        <div class="table-cell">IS 5984, ISO 4427, ASTM D3035</div>
+        <div class="divider"></div>
+        <div class="table-cell">Butt Fusion, Electrofusion, Mechanical</div>
+        <div class="divider"></div>
+        <div class="table-cell">Up to 500mm (for smaller diameters)</div>
+        <div class="divider"></div>
+        <div class="table-cell flag-cell">
+            <span>🇮🇳</span> <span>India</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="specs-download">
+        <button class="btn-download">
+            <img src="images/I490_9118_223_4269.svg" alt="download">
+            <span>Download Full Technical Datasheet</span>
+        </button>
+    </div>
+  </div>
+</section>
+<section id="features" class="features-section">
+  <div class="bg-noise-light"></div>
+  <div class="container features-content">
+    <div class="features-header">
+      <h2>Built to Last. Engineered to Perform.</h2>
+      <p>From bulk bags to technical threads, Meera delivers precision solutions for every stage of your packaging process.</p>
+    </div>
+
+    <div class="features-grid">
+      <!-- Card 1 -->
+      <div class="feature-card">
+        <div class="card-icon">
+            <img src="images/490_9127.svg" alt="icon">
+        </div>
+        <div class="card-text">
+            <h3>Superior Chemical Resistance</h3>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode, rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="feature-card">
+        <div class="card-icon">
+            <img src="images/490_9150.svg" alt="icon">
+        </div>
+        <div class="card-text">
+            <h3>Exceptional Flexibility & Durability</h3>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode, rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="feature-card">
+        <div class="card-icon">
+            <img src="images/490_9174.svg" alt="icon">
+        </div>
+        <div class="card-text">
+            <h3>Leak-Proof Fusion Welding</h3>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode, rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="feature-card">
+        <div class="card-icon">
+            <img src="images/490_9199.svg" alt="icon">
+        </div>
+        <div class="card-text">
+            <h3>Cost-Effective Long-Term Solution</h3>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode, rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="feature-card">
+        <div class="card-icon">
+            <img src="images/490_9223.svg" alt="icon">
+        </div>
+        <div class="card-text">
+            <h3>Environmentally Sustainable</h3>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode, rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="feature-card">
+        <div class="card-icon">
+            <img src="images/490_9247.svg" alt="icon">
+        </div>
+        <div class="card-text">
+            <h3>Certified Quality Assurance</h3>
+            <p>HDPE pipes resist a wide range of chemicals, acids, and alkalis. Unlike metal pipes, they won't corrode, rust, or scale, ensuring pure water quality and extended service life in aggressive environments.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="features-cta">
+        <button class="btn-primary">Request a Quote</button>
+    </div>
+  </div>
+</section>
+<section id="faq" class="faq-section">
+  <div class="bg-noise-light"></div>
+  <div class="container faq-content">
+    <div class="faq-header">
+      <h2>Frequently Asked Questions</h2>
+    </div>
+
+    <div class="faq-list">
+      <!-- Item 1 (Expanded) -->
+      <div class="faq-item expanded">
+        <div class="faq-question">
+          <span>What is the purpose of a laser cutter for sheet metal?</span>
+          <div class="faq-icon-wrapper expanded-bg">
+            <img src="images/490_9282.svg" alt="chevron">
+          </div>
+        </div>
+        <div class="faq-answer">
+          <p>It is designed to cut various types of sheet metal with precision, allowing for intricate designs and shapes that are essential in manufacturing processes.</p>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>What are the benefits of using aluminum tubing in manufacturing?</span>
+          <div class="faq-icon-wrapper">
+            <img src="images/490_9289.svg" alt="chevron">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>How is aluminum tubing produced?</span>
+          <div class="faq-icon-wrapper">
+            <img src="images/490_9295.svg" alt="chevron">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>What are the common applications of aluminum tubing?</span>
+          <div class="faq-icon-wrapper">
+            <img src="images/490_9301.svg" alt="chevron">
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Can aluminum tubing be customized?</span>
+          <div class="faq-icon-wrapper">
+            <img src="images/490_9307.svg" alt="chevron">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-cta-box">
+      <div class="faq-cta-text">
+        <h3>Want us to email the entire catalogue?</h3>
+        <p>Enter your email and an expert will share the catalogue with you.</p>
+      </div>
+      <div class="faq-cta-form">
+        <div class="input-group">
+            <label>Email Address</label>
+            <div class="input-field">
+                <input type="email" placeholder="Email Address">
+            </div>
+        </div>
+        <button class="btn-primary full-width">Request Catalogue</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="industries" class="industries-section">
+  <div class="bg-noise"></div>
+  <div class="container industries-content">
+    <div class="industries-header-row">
+      <div class="industries-text">
+        <h2>Versatile Applications Across Industries</h2>
+        <p>From technical textiles to packaging materials, our precision-engineered machinery delivers superior performance across diverse applications.</p>
+      </div>
+      <div class="nav-arrows">
+        <div class="arrow-btn-sm"><img src="images/490_9327.svg" alt="prev"></div>
+        <div class="arrow-btn-sm"><img src="images/490_9329.svg" alt="next"></div>
+      </div>
+    </div>
+
+    <div class="industries-cards">
+      <!-- Card 1 -->
+      <div class="industry-card">
+        <div class="industry-img-wrapper">
+            <img src="images/b2bbeacab99354ed8115ebeb93ea4f25afce46fb.png" alt="Fishnet">
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="industry-info">
+            <div class="industry-title">
+                <h3>Fishnet Manufacturing</h3>
+                <p>High-performance twisting solutions for packaging yarn, strapping materials, and reinforcement threads used in modern packaging applications.</p>
+            </div>
+            <div class="industry-tags">
+                <span>Packaging Industry Solutions</span>
+                <span>Fishnet Manufacturing</span>
+                <span>PPMF/Tapes and Twines</span>
+                <span>FIBC and Woven Sack</span>
+                <span>Carpet and Rugs Industry</span>
+                <span>Technical Textiles</span>
+            </div>
+        </div>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="industry-card">
+        <div class="industry-img-wrapper">
+            <img src="images/b2bbeacab99354ed8115ebeb93ea4f25afce46fb.png" alt="Fishnet">
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="industry-info">
+            <div class="industry-title">
+                <h3>Fishnet Manufacturing</h3>
+                <p>High-performance twisting solutions for packaging yarn, strapping materials, and reinforcement threads used in modern packaging applications.</p>
+            </div>
+            <div class="industry-tags">
+                <span>Products</span>
+                <span>Two For One Twister</span>
+                <span>TPRS Twister Machine</span>
+                <span>Ring Twisting Machines</span>
+                <span>Covering Machines</span>
+                <span>Heat Setting Equipment</span>
+                <span>Servo Controlled Winders</span>
+            </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="industry-card">
+        <div class="industry-img-wrapper">
+            <img src="images/b2bbeacab99354ed8115ebeb93ea4f25afce46fb.png" alt="Fishnet">
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="industry-info">
+            <div class="industry-title">
+                <h3>Fishnet Manufacturing</h3>
+                <p>High-performance twisting solutions for packaging yarn, strapping materials, and reinforcement threads used in modern packaging applications.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="process" class="process-section">
+  <div class="bg-noise-light"></div>
+  <div class="container process-content">
+    <div class="process-header">
+      <h2>Advanced HDPE Pipe Manufacturing Process</h2>
+      <p>Our state-of-the-art extrusion technology ensures consistent quality, optimal material properties, and dimensional accuracy in every pipe we manufacture.</p>
+    </div>
+
+    <div class="process-flow">
+      <!-- Steps Row -->
+      <div class="steps-row">
+        <div class="step-line"></div>
+        <div class="step-item active">
+            <span>Raw Material</span>
+        </div>
+        <div class="step-item">
+            <span>Extrusion</span>
+        </div>
+        <div class="step-item">
+            <span>Cooling</span>
+        </div>
+        <div class="step-item">
+            <span>Sizing</span>
+        </div>
+        <div class="step-item">
+            <span>Quality Control</span>
+        </div>
+        <div class="step-item">
+            <span>Marking</span>
+        </div>
+        <div class="step-item">
+            <span>Cutting</span>
+        </div>
+        <div class="step-item">
+            <span>Packaging</span>
+        </div>
+      </div>
+
+      <!-- Detail View -->
+      <div class="process-detail">
+        <div class="detail-text">
+            <h3>High-Grade Raw Material Selection</h3>
+            <p>Vacuum sizing tanks ensure precise outer diameter while internal pressure maintains perfect roundness and wall thickness uniformity.</p>
+            <div class="detail-points">
+                <div class="point">
+                    <img src="images/490_9461.svg" alt="check">
+                    <span>PE100 grade material</span>
+                </div>
+                <div class="point">
+                    <img src="images/490_9464.svg" alt="check">
+                    <span>Optimal molecular weight distribution</span>
+                </div>
+            </div>
+        </div>
+        <div class="detail-visual">
+            <div class="merged-image-wrapper visual-container">
+                <img src="images/b2bbeacab99354ed8115ebeb93ea4f25afce46fb.png" alt="Process Visual" class="visual-img">
+                <div class="arrow-btn arrow-left merged-content" style="left: 20px;">
+                    <img src="images/490_9468.svg" alt="prev">
+                </div>
+                <div class="arrow-btn arrow-right merged-content" style="right: 20px;">
+                    <img src="images/490_9470.svg" alt="next">
+                </div>
+                <!--merged image-->
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="testimonials" class="testimonials-section">
+  <div class="bg-noise-light"></div>
+  <div class="container testimonials-content">
+    <div class="testimonials-header">
+      <h2>Trusted Performance. Proven Results</h2>
+      <p>From innovative Two-For-One Twisters to specialized heat setting machines, we deliver complete solutions for modern textile manufacturing.</p>
+    </div>
+
+    <div class="testimonials-grid">
+      <!-- Card 1 -->
+      <div class="testimonial-card">
+        <div class="quote-icon">
+            <img src="images/490_9481.svg" alt="quote">
+        </div>
+        <div class="testimonial-body">
+            <h3>Revolutionized our FIBC production efficiency!</h3>
+            <p>Meera Industries' TFO machines have revolutionized our FIBC production efficiency. The precision engineering delivers the consistent yarn strength critical for our bulk container applications.</p>
+        </div>
+        <div class="client-info">
+            <div class="client-avatar"></div>
+            <div class="client-details">
+                <span class="client-name">Johann Mueller</span>
+                <span class="client-role">Production Director</span>
+            </div>
+            <div class="client-logo">
+                <img src="images/62973e4dd846652170f3636303e02a5fc1d1b59e.png" alt="logo">
+            </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="testimonial-card">
+        <div class="quote-icon">
+            <img src="images/490_9511.svg" alt="quote">
+        </div>
+        <div class="testimonial-body">
+            <h3>Revolutionized our FIBC production efficiency!</h3>
+            <p>Meera Industries' TFO machines have revolutionized our FIBC production efficiency. The precision engineering delivers the consistent yarn strength critical for our bulk container applications.</p>
+        </div>
+        <div class="client-info">
+            <div class="client-avatar"></div>
+            <div class="client-details">
+                <span class="client-name">Johann Mueller</span>
+                <span class="client-role">Production Director</span>
+            </div>
+            <div class="client-logo">
+                <!-- Logo placeholder -->
+            </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="testimonial-card">
+        <div class="quote-icon">
+            <img src="images/490_9540.svg" alt="quote">
+        </div>
+        <div class="testimonial-body">
+            <h3>Excellent support for specialized applications.</h3>
+            <p>The durability and performance of Meera's fishnet processing equipment has significantly improved our marine product quality. Excellent support for specialized applications.</p>
+        </div>
+        <div class="client-info">
+            <div class="client-avatar"></div>
+            <div class="client-details">
+                <span class="client-name">Carlos Mendoza</span>
+                <span class="client-role">Operations Manager</span>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="portfolio" class="portfolio-section">
+  <div class="bg-noise-light"></div>
+  <div class="container portfolio-content">
+    <div class="portfolio-header">
+      <h2>Complete Piping Solutions Portfolio</h2>
+      <p>From innovative Two-For-One Twisters to specialized heat setting machines, we deliver complete solutions for modern textile manufacturing.</p>
+    </div>
+
+    <div class="portfolio-grid">
+      <!-- Card 1 -->
+      <div class="portfolio-card">
+        <div class="portfolio-text">
+            <div class="text-group">
+                <h3>HDPE Fittings & Accessories</h3>
+                <p>Complete range of electrofusion and butt fusion fittings, including elbows, tees, reducers, and couplers for seamless pipe connections.</p>
+            </div>
+            <div class="portfolio-img-container">
+                <img src="images/c86f8dae3967ca8220a06b7745aa763ed9a1437a.png" alt="Fittings">
+                <button class="btn-learn-more">
+                    <span>Learn More</span>
+                </button>
+            </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="portfolio-card">
+        <div class="portfolio-text">
+            <div class="text-group">
+                <h3>Professional Installation Services</h3>
+                <p>Expert installation and fusion welding services ensuring optimal system performance, compliance with standards, and long-term reliability.</p>
+            </div>
+            <div class="portfolio-img-container">
+                <img src="images/91928c6beda9d501d1c26ae0cac9daf21cf34169.png" alt="Installation">
+                <button class="btn-learn-more">
+                    <span>Learn More</span>
+                </button>
+            </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="portfolio-card">
+        <div class="portfolio-text">
+            <div class="text-group">
+                <h3>PE-RT Heating Pipes</h3>
+                <p>Polyethylene of Raised Temperature resistance pipes ideal for underfloor heating, radiator connections, and hot water applications.</p>
+            </div>
+            <div class="portfolio-img-container">
+                <img src="images/c86f8dae3967ca8220a06b7745aa763ed9a1437a.png" alt="Heating">
+                <button class="btn-learn-more">
+                    <span>Learn More</span>
+                </button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="resources" class="resources-section">
+  <div class="bg-noise-light"></div>
+  <div class="container resources-content">
+    <div class="resources-header">
+      <h2>Resources & Downloads</h2>
+      <p>Get all the technical documentation and resources you need to make informed decisions about our HDPE piping solutions.</p>
+    </div>
+
+    <div class="resources-list">
+      <div class="resource-item">
+        <span class="resource-name">HDPE Pipe Installation Manual (PDF)</span>
+        <div class="download-action">
+            <span class="download-text">Download PDF</span>
+            <img src="images/490_9764.svg" alt="download">
+        </div>
+      </div>
+      <div class="resource-item">
+        <span class="resource-name">Maintenance & Inspection Handbook (PDF)</span>
+        <div class="download-action">
+            <span class="download-text">Download PDF</span>
+            <img src="images/490_9769.svg" alt="download">
+        </div>
+      </div>
+      <div class="resource-item">
+        <span class="resource-name">Engineering Specifications Sheet (PDF)</span>
+        <div class="download-action">
+            <span class="download-text">Download PDF</span>
+            <img src="images/490_9774.svg" alt="download">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="cta" class="cta-section">
+  <div class="bg-noise-light"></div>
+  <div class="container cta-content">
+    <div class="cta-card">
+      <div class="cta-left">
+        <h2>Ready to Transform Your Textile Manufacturing?</h2>
+        <p>Get a personalized consultation and quote for machinery solutions tailored to your specific production requirements.</p>
+        <div class="cta-contact-info">
+            <div class="divider-line"></div>
+            <p class="contact-details">For immediate assistance, feel free to give us a direct call at +91-XXX-XXX-XXXX. You can also send us a quick email at info@meeraind.com</p>
+        </div>
+      </div>
+      <div class="cta-right">
+        <div class="cta-form-box">
+            <h3>Contact Us Today</h3>
+            <div class="form-fields">
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <div class="input-field">
+                        <input type="text" placeholder="Full Name">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Company Name</label>
+                    <div class="input-field">
+                        <input type="text" placeholder="Company Name">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <div class="input-field">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-field dual">
+                        <div class="prefix">
+                            <span>+91</span>
+                            <img src="images/I490_9794_33_412.svg" alt="down">
+                        </div>
+                        <input type="text" value="7003026616">
+                    </div>
+                </div>
+            </div>
+            <button class="btn-submit">Request Custom Quote</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="footer" class="footer-section">
+  <div class="container footer-content">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="images/ce5a170c60004b853d7c68fb0ec5bf7ee4e75417.png" alt="Logo" class="footer-logo">
+        <div class="brand-tagline">
+            <p>Premium HDPE Pipes & Fittings Manufacturer in South India</p>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <div class="link-column">
+            <h4>About Us</h4>
+            <a href="#">About Us</a>
+        </div>
+        <div class="link-column">
+            <h4>Categories</h4>
+            <a href="#">Packaging Industry Solutions</a>
+            <a href="#">Fishnet Manufacturing</a>
+            <a href="#">PPMF/Tapes and Twines</a>
+            <a href="#">FIBC and Woven Sack</a>
+            <a href="#">Carpet and Rugs Industry</a>
+            <a href="#">Technical Textiles</a>
+        </div>
+        <div class="link-column">
+            <h4>Products</h4>
+            <a href="#">Two For One Twister</a>
+            <a href="#">TPRS Twister Machine</a>
+            <a href="#">Ring Twisting Machines</a>
+            <a href="#">Covering Machines</a>
+            <a href="#">Heat Setting Equipment</a>
+            <a href="#">Servo Controlled Winders</a>
+        </div>
+        <div class="link-column contact-col">
+            <h4>Contact</h4>
+            <div class="contact-item">
+                <img src="images/490_9842.svg" alt="map">
+                <span>2126, Road No. 2, GIDC Sachin, Surat - 394 230 Gujarat, India</span>
+            </div>
+            <div class="contact-item">
+                <img src="images/490_9845.svg" alt="phone">
+                <span>+91-XXX-XXX-XXXX</span>
+            </div>
+            <div class="contact-item">
+                <img src="images/490_9848.svg" alt="email">
+                <span>info@meeraind.com</span>
+            </div>
+            <div class="contact-item">
+                <img src="images/490_9851.svg" alt="support">
+                <span>support@meeraind.com</span>
+            </div>
+            <div class="divider-line-dark"></div>
+            <div class="social-icons">
+                <img src="images/I490_9856_223_5072.svg" alt="social">
+                <img src="images/I490_9857_223_5072.svg" alt="social">
+                <img src="images/I490_9858_223_5072.svg" alt="social">
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>Copyright © 2025 Meera Industries Limited | All Rights Reserved</p>
+        <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Sitemap</a>
+        </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
